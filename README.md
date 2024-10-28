@@ -1,5 +1,3 @@
-Here's a playful, comical README to introduce *Pew Pew Cubed*!
-
 ![Pew Pew Cubed](images/bg.jpg)
 
 # Pew Pew Cubed

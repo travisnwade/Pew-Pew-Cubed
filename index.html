@@ -47,7 +47,13 @@
         </div>
     </div>
 
-  <div id="footer">Keep bein' fantastic you beautiful creature.</div>
+  <div id="footer">Keep bein' fantastic you beautiful creature. &copy; <span id="current-year"></span><a href="https://links.twade.io/" target="_blank">Travis Wade</a> | <a href="https://github.com/travisnwade/Pew-Pew-Cubed" target="_blank">Pew Pew Cubed</a></div>
+
+  <script>
+    // Set the current year in the footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
   <script src="js/game.js"></script>
 </body>
 </html>
